@@ -1,0 +1,129 @@
+
+/* ? media queries to edit css responsiveness */
+
+/* small mobile */
+/* @media (min-width: 320px) {
+ 
+} */
+
+/* m mobile */
+/* @media (min-width: 375px) {
+ 
+} */
+
+/* l mobile */
+/* @media (min-width: 425px) {
+ 
+} */
+
+/* xs */
+/* @media (min-width: 475px) {
+
+} */
+
+/* sm */
+/* @media (min-width: 640px) {
+
+} */
+
+/* m */
+/*@media (min-width: 768px) {
+
+} */
+
+/* lg */
+/* @media (min-width: 1024px) {
+ 
+}
+ */
+/* xl */
+/* @media (min-width: 1280px) {
+ 
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+
+} */
+
+/* ? Boxes content */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 2px solid;
+}
+
+/* ? Separates content */
+.section {
+  margin-top: 2rem;
+}
+
+/* !controls responsive system */
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 425px) {
+  .container {
+    max-width: 425px;
+  }
+}
+
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* m */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .section {
+    margin-top: 10rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}

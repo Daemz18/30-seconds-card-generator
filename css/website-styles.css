@@ -1,0 +1,36 @@
+:root {
+  --clr-light: #E8E9F3;
+  --clr-dark: #221F1F;
+
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+img, picture, video,  canvas, svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family:inherit;
+}
+
+a {
+  color: var(--d);
+}
